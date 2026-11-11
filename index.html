@@ -234,6 +234,14 @@ function cl(){mm.classList.remove('open');hb.textContent='☰';hb.setAttribute('
 hb.onclick=function(){var o=mm.classList.toggle('open');hb.textContent=o?'✕':'☰';hb.setAttribute('aria-expanded',o)};
 mm.querySelectorAll('a').forEach(function(a){a.onclick=cl});
 window.addEventListener('resize',function(){if(innerWidth>900)cl()})})();
+
 </script>
+
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
+
+
